@@ -2,6 +2,15 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css2/style.css">
+        <script>
+            function append(btn){
+var x=btn.parentElement.querySelector('.copiedlabel')
+x.classList.remove("d-none");
+ setTimeout(()=>{
+    x.classList.add("d-none");
+ },2000);
+}
+        </script>
     </head>
     <body>
         <h1>Car Exhibition</h1>
@@ -12,4 +21,5 @@
         <div class="car5"></div>
         <div class="car6"></div>
     </body>
+
 </html>
