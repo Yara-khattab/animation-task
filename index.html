@@ -2,6 +2,15 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/style.css">
+        <script>
+            function append(btn){
+var x=btn.parentElement.querySelector('.copiedlabel')
+x.classList.remove("d-none");
+ setTimeout(()=>{
+    x.classList.add("d-none");
+ },2000);
+}
+        </script>
     </head>
     <body>
         <div class="div1"></div>
@@ -12,4 +21,5 @@
         <div class="div6"></div>
         <div class="div7"></div>
     </body>
+
 </html>
