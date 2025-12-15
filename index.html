@@ -9,6 +9,17 @@ x.classList.remove("d-none");
  setTimeout(()=>{
     x.classList.add("d-none");
  },2000);
+                
+var copyButtons = document.querySelectorAll(".copyBtn");
+copyButtons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+        var copiedLabel = btn.nextElementSibling;
+        copiedLabel.classList.remove("d-none");
+        setTimeout(function () {
+            copiedLabel.classList.add("d-none");
+        }, 2000);
+    });
+});
 }
         </script>
     </head>
@@ -23,3 +34,4 @@ x.classList.remove("d-none");
     </body>
 
 </html>
+
