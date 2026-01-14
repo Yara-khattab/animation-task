@@ -25,5 +25,6 @@ It aims to demonstrate how animations can be used effectively to improve UI/UX a
 - Improving attention to design details and motion timing
 - Building more dynamic and attractive user interfaces
 ## 📽️ Demo Video
-[Click here to watch the demo](animation.mp4)
+[Animation Demo](./animation.mp4)
+
 
